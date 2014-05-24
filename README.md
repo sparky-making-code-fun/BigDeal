@@ -19,3 +19,5 @@ Commit comments are integrated between Github and Yodiz.
 Please read here and follow the guidelines
 
 http://app.yodiz.com/thirdparty/pages/git.vz
+
+Making sure we are tied to Yodiz
