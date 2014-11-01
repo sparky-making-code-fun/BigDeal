@@ -8,7 +8,10 @@ https://docs.djangoproject.com/en/1.6/howto/deployment/wsgi/
 """
 
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "poker_site.settings")
+import sys
+
+sys.path.append("/var/www/poker_site/poker_env/BigDeal/poker_site")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings.prod")
 
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
