@@ -16,6 +16,7 @@ GitFlow
 This project uses a slightly modified git flow type workflow. 
 
 1) Each feature or fix should be created in it's own branch branching from master. 
+
 2) Upon completing the code for a feature or fix you should merge master INTO your feature/fix branch
 e.g. 
 git checkout <my branch>
