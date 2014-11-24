@@ -20,9 +20,10 @@ This project uses a slightly modified git flow type workflow.
 e.g. 
 git checkout <my branch>
 git merge master
-#This merges any changes that were pushed to the master branch into your feature/fix branch
-#Now you need to resolve any merge issues. 
-#Then run the unittests and make sure every thing still passes
+
+This merges any changes that were pushed to the master branch into your feature/fix branch
+Now you need to resolve any merge issues. 
+Then run the unittests and make sure every thing still passes
 
 3) When any merge issues are resolved and the unittests all pass go to github and create a merge request for
 your branch. 
