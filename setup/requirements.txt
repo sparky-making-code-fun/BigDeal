@@ -1,6 +1,7 @@
-Django==1.6.5
+Django==1.7.6
 coverage==3.7.1
 django-jenkins==0.15.0
 South==0.8.4
 python-social-auth==0.1.22
 boto==2.27.0
+psycopg2
