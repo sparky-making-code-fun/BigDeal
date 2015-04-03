@@ -11,3 +11,4 @@ class TestVenue(TestCase):
         v = Venue.objects.create(venue_name='Howdy', street='12')
         self.assertEqual(v.venue_name, 'Howdy')
         self.assertEqual(v.street, '12')
+        self.fail()
