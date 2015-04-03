@@ -1,6 +1,7 @@
 from django.test import TestCase
 from models.venue import Venue
 
+
 class TestVenue(TestCase):
     """Test our venue class"""
 
